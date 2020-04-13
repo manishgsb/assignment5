@@ -1,0 +1,72 @@
+Linux 4.15.0-91-generic (team-24-hw5-i2) 	04/13/20 	_x86_64_	(48 CPU)
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:22:25        0         1    0.00    0.00    0.00    0.00    0.00    33    229.81      0.00  160056    9276   0.00     -1.00     -1.00     -1.00       0  /sbin/init 
+21:22:25        0       894    0.00    0.00    0.00    0.00    0.00    25     29.81      0.00  237312  124048   0.06     -1.00     -1.00     -1.00       0  /lib/systemd/systemd-journald 
+21:22:25        0       926    0.96    0.96    0.00    0.00    1.92    31    811.54      0.00   46148    4760   0.00     -1.00     -1.00     -1.00       0  /lib/systemd/systemd-udevd 
+21:22:25      103      2252    0.96    0.00    0.00    0.00    0.96     9      0.00      0.00   39760    3836   0.00     -1.00     -1.00     -1.00       0  /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only 
+21:22:25     1000     47456    0.00    2.88    0.00    0.00    2.88    27      2.88      0.00   34444    3996   0.00      0.00      0.00      0.00       0  top 
+21:22:25     1000     47511    6.73   54.81    0.00    0.00   61.54     4  96973.08      0.00 8395404  499852   0.25 296861.54      0.00      0.00      39  sort -S 8G --parallel=16 -o outfile generatedfile 
+21:22:25     1000     47512    1.92    1.92    0.00    0.00    3.85    23   2507.69      0.00   22132   16248   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:22:26     1000     47511   10.00   51.00    0.00    0.00   61.00     4  97575.00      0.00 8395404  890308   0.45 291328.00      0.00      0.00      38  sort -S 8G --parallel=16 -o outfile generatedfile 
+21:22:26     1000     47512    2.00    1.00    0.00    0.00    3.00    23    102.00      0.00   22132   16776   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:22:27        0      2174    0.00    1.00    0.00    0.00    1.00    39      0.00      0.00  110780    3812   0.00     -1.00     -1.00     -1.00       0  /usr/sbin/irqbalance --foreground 
+21:22:27     1000     47511    7.00   52.00    0.00    0.00   59.00     4  96068.00      0.00 8395404 1274428   0.65 293120.00      0.00      0.00      41  sort -S 8G --parallel=16 -o outfile generatedfile 
+21:22:27     1000     47512    2.00    2.00    0.00    0.00    4.00    23      0.00      0.00   22132   16776   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:22:28     1000     47456    1.00    1.00    0.00    0.00    2.00    27      1.00      0.00   34444    3996   0.00      0.00      0.00      0.00       0  top 
+21:22:28     1000     47511  100.00   59.00    0.00    0.00  100.00     4 195512.00      0.00 9042632 2054752   1.05   4784.00 116872.00      0.00       0  sort -S 8G --parallel=16 -o outfile generatedfile 
+21:22:28     1000     47512    1.00    3.00    0.00    0.00    4.00    31      0.00      0.00   22132   16776   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:22:29     1000     47511  100.00   40.00    0.00    0.00  100.00     4  57827.00      0.00 9042632 2286280   1.16      0.00 283984.00      0.00       0  sort -S 8G --parallel=16 -o outfile generatedfile 
+21:22:29     1000     47512    2.00    0.00    0.00    0.00    2.00    31      0.00      0.00   22132   16776   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:22:30        0     46127    0.00    7.00    0.00    0.00    7.00    15      0.00      0.00       0       0   0.00     -1.00     -1.00     -1.00      30  kworker/u98:3
+21:22:30     1000     47511  100.00   32.00    0.00    0.00  100.00     4  36966.00      0.00 9042632 2433328   1.24      0.00 315008.00      0.00       0  sort -S 8G --parallel=16 -o outfile generatedfile 
+21:22:30     1000     47512    1.00    3.00    0.00    0.00    4.00    33      0.00      0.00   22132   16776   0.01      0.00      4.00      0.00       0  pidstat -dru -hl 1 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:22:31        0     46127    0.00    0.00    0.00    0.00    0.00    15      0.00      0.00       0       0   0.00     -1.00     -1.00     -1.00       5  kworker/u98:3
+21:22:31     1000     47456    2.00    2.00    0.00    0.00    4.00    29      0.00      0.00   34444    3996   0.00      0.00      0.00      0.00       0  top 
+21:22:31     1000     47511  100.00   31.00    0.00    0.00  100.00    23  28315.00      0.00 8952476 1222048   0.62      0.00 260700.00      0.00       0  sort -S 8G --parallel=16 -o outfile generatedfile 
+21:22:31     1000     47512    1.00    3.00    0.00    0.00    4.00    33      0.00      0.00   22132   16776   0.01      0.00      4.00      0.00       0  pidstat -dru -hl 1 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:22:32     1000     47511    0.00   19.00    0.00    0.00   19.00    23      0.00      0.00  563864    1908   0.00      0.00      0.00      0.00      81  sort -S 8G --parallel=16 -o outfile generatedfile 
+21:22:32     1000     47512    0.00    4.00    0.00    0.00    4.00    33      0.00      0.00   22132   16776   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:22:33        0       790    0.00    0.00    0.00    0.00    0.00    23      0.00      0.00       0       0   0.00     -1.00     -1.00     -1.00      13  jbd2/sda1-8
+21:22:33     1000     47458    0.00    0.00    0.00    0.00    0.00    29      6.00      0.00    4628     884   0.00 976560.00 976564.00      0.00       0  sh runlinux1g.sh 
+21:22:33     1000     47512    1.00    2.00    0.00    0.00    3.00    33      0.00      0.00   22132   16776   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:22:33     1000     47543   33.00   10.00    0.00    0.00   43.00     4  25730.00      0.00 2643056  104080   0.05 101888.00      0.00      0.00       0  ./valsort outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:22:34        0      1287    0.00    1.00    0.00    0.00    1.00    26      0.00      0.00       0       0   0.00     -1.00     -1.00     -1.00       0  kworker/26:1H
+21:22:34     1000     47456    0.00    3.00    0.00    0.00    3.00    29      0.00      0.00   34444    3996   0.00      0.00      0.00      0.00       0  top 
+21:22:34     1000     47512    1.00    2.00    0.00    0.00    3.00    33      0.00      0.00   22132   16776   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:22:34     1000     47543   96.00   25.00    0.00    0.00  100.00     6  78099.00      0.00 3888240  416392   0.21 312320.00      0.00      0.00       0  ./valsort outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:22:35        0         1    0.00    1.00    0.00    0.00    1.00    35    236.00      0.00  160056    9276   0.00     -1.00     -1.00     -1.00       0  /sbin/init 
+21:22:35        0       894    0.00    0.00    0.00    0.00    0.00    25    127.00      0.00  237312  124064   0.06     -1.00     -1.00     -1.00       0  /lib/systemd/systemd-journald 
+21:22:35        0       926    0.00    1.00    0.00    0.00    1.00    33    849.00      0.00   46148    4760   0.00     -1.00     -1.00     -1.00       0  /lib/systemd/systemd-udevd 
+21:22:35        0      1033    0.00    1.00    0.00    1.00    1.00    35      0.00      0.00       0       0   0.00     -1.00     -1.00     -1.00       0  kworker/35:1H
+21:22:35     1000     47512    1.00    2.00    0.00    0.00    3.00    35      0.00      0.00   22132   16776   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:22:35     1000     47543  100.00   20.00    0.00    0.00  100.00     6  43910.00      0.00 4150384  592216   0.30 329728.00      0.00      0.00       0  ./valsort outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:22:36        0       893    0.00    1.00    0.00    0.00    1.00    37      0.00      0.00       0       0   0.00     -1.00     -1.00     -1.00       0  kworker/37:1H
+21:22:36     1000     35834    0.00    0.00    0.00    0.00    0.00    27      0.00      0.00   14996    5012   0.00 1953124.00 1953128.00      0.00       0  -bash 
+21:22:36     1000     47512    2.00    2.00    0.00    0.00    4.00    35      0.00      0.00   22132   16776   0.01      0.00      4.00      0.00       0  pidstat -dru -hl 1 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:22:37     1000     35834    0.00    0.00    0.00    0.00    0.00    27     50.00      0.00   14996    5012   0.00      0.00      0.00      0.00       0  -bash 
+21:22:37     1000     47512    2.00    2.00    0.00    0.00    4.00    35      0.00      0.00   22132   16776   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 

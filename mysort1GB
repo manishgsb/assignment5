@@ -1,0 +1,167 @@
+Linux 4.15.0-91-generic (team-24-hw5-i2) 	04/13/20 	_x86_64_	(48 CPU)
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:20:55     1000     47115    0.00    0.00    0.00    0.00    0.00    47     15.38      0.00    4628     864   0.00      0.00 939053.85      0.00       0  sh run1g.sh 
+21:20:55     1000     47174    1.92    2.88    0.00    0.00    4.81     9   2501.92      0.00   22108   16200   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:20:55     1000     47231   46.15    3.85    0.00    0.00   50.00    25   9231.73      0.00 37788676   51248   0.03   5523.08     30.77      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:20:56        0        66    1.00    0.00    0.00    0.00    1.00     9      0.00      0.00       0       0   0.00     -1.00     -1.00     -1.00       0  ksoftirqd/9
+21:20:56        0       789    0.00    1.00    0.00    0.00    1.00    42      0.00      0.00       0       0   0.00     -1.00     -1.00     -1.00       0  kworker/42:1H
+21:20:56     1000     47113    1.00    2.00    0.00    0.00    3.00    44      3.00      0.00   34444    4092   0.00      0.00      0.00      0.00       0  top 
+21:20:56     1000     47174    2.00    1.00    0.00    0.00    3.00     9    103.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:20:56     1000     47231  100.00   11.00    0.00    0.00  100.00    25  55304.00      0.00 37788676  271260   0.14  72576.00      0.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:20:57        0      2174    1.00    0.00    0.00    0.00    1.00    39      0.00      0.00  110780    3812   0.00     -1.00     -1.00     -1.00       0  /usr/sbin/irqbalance --foreground 
+21:20:57     1000     47174    2.00    1.00    0.00    0.00    3.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:20:57     1000     47231  100.00   20.00    0.00    0.00  100.00    25 121804.00      0.00 37788676  498968   0.25  78080.00  77344.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:20:58        0       790    0.00    1.00    0.00    0.00    1.00    15      0.00      0.00       0       0   0.00     -1.00     -1.00     -1.00       0  jbd2/sda1-8
+21:20:58        0     26891    0.00    3.00    0.00    0.00    3.00    15      0.00      0.00       0       0   0.00     -1.00     -1.00     -1.00       7  kworker/u98:1
+21:20:58     1000     47174    1.00    2.00    0.00    0.00    3.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:20:58     1000     47231  100.00   15.00    0.00    0.00  100.00    25  49379.00      0.00 37788676  571152   0.29  33792.00  77368.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:20:59     1000     47113    1.00    2.00    0.00    0.00    3.00    44      0.00      0.00   34444    4092   0.00      0.00      0.00      0.00       0  top 
+21:20:59     1000     47174    1.00    2.00    0.00    0.00    3.00     9      0.00      0.00   22108   16728   0.01      0.00      4.00      0.00       0  pidstat -dru -hl 1 
+21:20:59     1000     47231   96.00    2.00    0.00    0.00   98.00    25   8629.00      0.00 37788676  571152   0.29  44416.00   2552.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:00     1000     47174    2.00    2.00    0.00    0.00    4.00     9      0.00      0.00   22108   16728   0.01      0.00      4.00      0.00       0  pidstat -dru -hl 1 
+21:21:00     1000     47231   89.00    8.00    0.00    0.00   97.00    25  11652.00      0.00 37788676  568768   0.29  78080.00  74792.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:01     1000     47174    1.00    2.00    0.00    0.00    3.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:01     1000     47231  100.00   19.00    0.00    0.00  100.00    25  11596.00      0.00 37788676  607804   0.31  78080.00  77344.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:02     1000     47113    2.00    1.00    0.00    0.00    3.00    44      0.00      0.00   34444    4092   0.00      0.00      0.00      0.00       0  top 
+21:21:02     1000     47174    2.00    2.00    0.00    0.00    4.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:02     1000     47231   93.00    5.00    0.00    0.00   98.00    25     83.00      0.00 37788676  607804   0.31  37248.00  77344.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:03        0         1    1.00    1.00    0.00    0.00    2.00    19    226.00      0.00  160056    9276   0.00     -1.00     -1.00     -1.00       0  /sbin/init 
+21:21:03        0       894    1.00    0.00    0.00    0.00    1.00    15    123.00      0.00  237312  123860   0.06     -1.00     -1.00     -1.00       0  /lib/systemd/systemd-journald 
+21:21:03        0       926    0.00    1.00    0.00    0.00    1.00    25    789.00      0.00   46148    4760   0.00     -1.00     -1.00     -1.00       0  /lib/systemd/systemd-udevd 
+21:21:03     1000     47174    2.00    1.00    0.00    0.00    3.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:03     1000     47231   97.00    2.00    0.00    0.00   99.00    25     95.00      0.00 37788676  607804   0.31  40960.00   9104.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:04     1000     47174    1.00    2.00    0.00    0.00    3.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:04     1000     47231  100.00   25.00    0.00    0.00  100.00    25  20804.00      0.00 37788676  692232   0.35  78080.00  68240.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:05     1000     47113    1.00    2.00    0.00    0.00    3.00    44      0.00      0.00   34444    4092   0.00      0.00      0.00      0.00       0  top 
+21:21:05     1000     47174    3.00    1.00    0.00    0.00    4.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:05     1000     47231   88.00    8.00    0.00    0.00   96.00    25      0.00      0.00 37788676  692232   0.35  78080.00  77344.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:06     1000     47174    1.00    2.00    0.00    0.00    3.00     9      0.00      0.00   22108   16728   0.01      0.00      4.00      0.00       0  pidstat -dru -hl 1 
+21:21:06     1000     47231   96.00    5.00    0.00    0.00  100.00    25  26155.00      0.00 37788676  692232   0.35      0.00  53872.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:07        0      2174    0.00    1.00    0.00    0.00    1.00    39      0.00      0.00  110780    3812   0.00     -1.00     -1.00     -1.00       0  /usr/sbin/irqbalance --foreground 
+21:21:07     1000     47174    1.00    2.00    0.00    0.00    3.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:07     1000     47231  100.00   34.00    0.00    0.00  100.00    25  98141.00      0.00 37788676  777912   0.40  78208.00  23472.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:08     1000     47113    0.00    1.00    0.00    0.00    1.00    21      0.00      0.00   34444    4092   0.00      0.00      0.00      0.00       0  top 
+21:21:08     1000     47174    1.00    2.00    0.00    0.00    3.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:08     1000     47231   88.00    7.00    0.00    0.00   95.00    25  30736.00      0.00 37788676  778332   0.40  78080.00  77344.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:09     1000     47174    2.00    1.00    0.00    0.00    3.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:09     1000     47231   96.00    3.00    0.00    0.00   99.00    25   7950.00      0.00 37788676  778332   0.40      0.00  76368.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:10     1000     47174    2.00    2.00    0.00    0.00    4.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:10     1000     47231  100.00   76.00    0.00    0.00  100.00    25  54730.00      0.00 37788676  861428   0.44  78080.00    976.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:11        0         1    0.00    0.00    0.00    0.00    0.00    19      1.00      0.00  160056    9276   0.00     -1.00     -1.00     -1.00       0  /sbin/init 
+21:21:11        0      2195    0.00    0.00    0.00    0.00    0.00    19      1.00      0.00  779800    3488   0.00     -1.00     -1.00     -1.00       0  /usr/sbin/nscd 
+21:21:11     1000     47113    1.00    1.00    0.00    0.00    2.00    21      0.00      0.00   34444    4092   0.00      0.00      0.00      0.00       0  top 
+21:21:11     1000     47174    1.00    2.00    0.00    0.00    3.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:11     1000     47231   89.00    7.00    0.00    0.00   96.00    25     25.00      0.00 37788676  861428   0.44  78208.00  77344.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:12     1000     47174    2.00    1.00    0.00    0.00    3.00     9      0.00      0.00   22108   16728   0.01      0.00      4.00      0.00       0  pidstat -dru -hl 1 
+21:21:12     1000     47231   93.00    5.00    0.00    0.00   98.00    25      1.00      0.00 37788676  861428   0.44  38848.00  77344.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:13        0         1    0.00    0.00    0.00    0.00    0.00    23    229.00      0.00  160056    9276   0.00     -1.00     -1.00     -1.00       0  /sbin/init 
+21:21:13        0         9    0.00    1.00    0.00    0.00    1.00    22      0.00      0.00       0       0   0.00     -1.00     -1.00     -1.00       0  rcu_sched
+21:21:13        0       894    0.00    0.00    0.00    0.00    0.00     0     43.00      0.00  237312  123936   0.06     -1.00     -1.00     -1.00       0  /lib/systemd/systemd-journald 
+21:21:13        0       926    0.00    0.00    0.00    0.00    0.00    36    839.00      0.00   46148    4760   0.00     -1.00     -1.00     -1.00       0  /lib/systemd/systemd-udevd 
+21:21:13      102      2047    0.00    1.00    0.00    0.00    1.00     0      0.00      0.00  263036    4784   0.00     -1.00     -1.00     -1.00       0  /usr/sbin/rsyslogd -n 
+21:21:13      103      2252    1.00    0.00    0.00    0.00    1.00     9      0.00      0.00   39760    3836   0.00     -1.00     -1.00     -1.00       0  /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only 
+21:21:13     1000     47174    1.00    3.00    0.00    0.00    4.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:13     1000     47231  100.00   15.00    0.00    0.00  100.00    25   5024.00      0.00 37855240  869376   0.44      0.00 156656.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:14     1000     47174    1.00    2.00    0.00    0.00    3.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:14     1000     47231  100.00   18.00    0.00    0.00  100.00    25  12997.00      0.00 37855240  873776   0.44      0.00 245176.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:15     1000     47174    0.00    3.00    0.00    0.00    3.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:15     1000     47231   77.00   26.00    0.00    0.00  100.00    25 154098.00      0.00 37855240  871436   0.44      0.00 208752.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:16     1000     47174    1.00    3.00    0.00    0.00    4.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:16     1000     47231   77.00   29.00    0.00    0.00  100.00    25 102087.00      0.00 37855240 1222828   0.62      0.00 211312.00      0.00       0  java SharedMemorySort generatedfile outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:17        0      2899    0.00    0.00    0.00    0.00    0.00    21     11.00      0.00   66420    6256   0.00     -1.00     -1.00     -1.00       0  /usr/sbin/sshd -D 
+21:21:17        0     38910    0.00    1.00    0.00    0.00    1.00    46      0.00      0.00       0       0   0.00     -1.00     -1.00     -1.00       0  kworker/46:0
+21:21:17     1000     47115    0.00    0.00    0.00    0.00    0.00    47      6.00      0.00    4628     864   0.00 976560.00 1943420.00     24.00       0  sh run1g.sh 
+21:21:17     1000     47174    0.00    3.00    0.00    0.00    3.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:17        0     47317    0.00    0.00    0.00    0.00    0.00    43    356.00      0.00   66420    5348   0.00     -1.00     -1.00     -1.00       0  sshd: [accepted]     
+21:21:17      109     47318    0.00    0.00    0.00    0.00    0.00    26     61.00      0.00   66420     716   0.00     -1.00     -1.00     -1.00       0  sshd: [net]          
+21:21:17     1000     47319    1.00    2.00    0.00    0.00    3.00     4   2538.00      0.00 1135728   11292   0.01   9216.00      0.00      0.00       0  ./valsort outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:18     1000     47174    2.00    1.00    0.00    0.00    3.00     9      1.00      0.00   22108   16728   0.01      0.00      4.00      0.00       0  pidstat -dru -hl 1 
+21:21:18        0     47317    0.00    0.00    0.00    0.00    0.00    43     10.00      0.00   66420    5348   0.00     -1.00     -1.00     -1.00       0  sshd: [accepted]     
+21:21:18      109     47318    0.00    0.00    0.00    0.00    0.00    21      9.00      0.00   66420    2944   0.00     -1.00     -1.00     -1.00       0  sshd: [net]          
+21:21:18     1000     47319   48.00   11.00    0.00    0.00   59.00     4  32259.00      0.00 1266800  140388   0.07 129024.00      0.00      0.00       0  ./valsort outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:19        0       894    0.00    0.00    0.00    0.00    0.00     0     13.00      0.00  237312  123936   0.06     -1.00     -1.00     -1.00       0  /lib/systemd/systemd-journald 
+21:21:19        0      1056    0.00    1.00    0.00    0.00    1.00    28      0.00      0.00       0       0   0.00     -1.00     -1.00     -1.00       0  kworker/28:1H
+21:21:19        0      2899    0.00    0.00    0.00    0.00    0.00    21      1.00      0.00   66420    6256   0.00     -1.00     -1.00     -1.00       0  /usr/sbin/sshd -D 
+21:21:19     1000     47174    2.00    1.00    0.00    0.00    3.00     9      2.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:19     1000     47319   45.00   13.00    0.00    0.00   58.00     4  32259.00      0.00 1332336  269484   0.14 129024.00      0.00      0.00       0  ./valsort outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:20     1000     47174    2.00    2.00    0.00    0.00    4.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:20     1000     47319   40.00   20.00    0.00    0.00   60.00     4  32775.00      0.00 1725552  400428   0.20 131072.00      0.00      0.00       0  ./valsort outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:21     1000     47174    1.00    2.00    0.00    0.00    3.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:21     1000     47319   42.00   20.00    0.00    0.00   62.00     4  32901.00      0.00 1987696  532164   0.27 131584.00      0.00      0.00       0  ./valsort outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:22        0     41349    1.00    0.00    0.00    0.00    1.00     0      0.00      0.00       0       0   0.00     -1.00     -1.00     -1.00       0  kworker/0:0
+21:21:22     1000     47174    2.00    1.00    0.00    0.00    3.00     9      0.00      0.00   22108   16728   0.01      0.00      4.00      0.00       0  pidstat -dru -hl 1 
+21:21:22     1000     47319   44.00   14.00    0.00    0.00   58.00    35  14978.00      0.00 2053232  592092   0.30 137216.00      0.00      0.00       0  ./valsort outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:23        0         1    1.00    0.00    0.00    0.00    1.00    27    234.00      0.00  160056    9276   0.00     -1.00     -1.00     -1.00       0  /sbin/init 
+21:21:23        0       864    0.00    1.00    0.00    0.00    1.00     1      0.00      0.00       0       0   0.00     -1.00     -1.00     -1.00       0  kworker/1:1H
+21:21:23        0       894    0.00    0.00    0.00    0.00    0.00    29     26.00      0.00  237312  123936   0.06     -1.00     -1.00     -1.00       0  /lib/systemd/systemd-journald 
+21:21:23        0       926    1.00    1.00    0.00    0.00    2.00    36    821.00      0.00   46148    4760   0.00     -1.00     -1.00     -1.00       0  /lib/systemd/systemd-udevd 
+21:21:23        0      2106    0.00    1.00    0.00    0.00    1.00    11      0.00      0.00   62608    6144   0.00     -1.00     -1.00     -1.00       0  /lib/systemd/systemd-logind 
+21:21:23        0     46127    0.00    1.00    0.00    0.00    1.00    21      0.00      0.00       0       0   0.00     -1.00     -1.00     -1.00       0  kworker/u98:3
+21:21:23     1000     47174    1.00    3.00    0.00    0.00    4.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:23     1000     47319   48.00    8.00    0.00    0.00   56.00    43      0.00      0.00 2053232  592092   0.30 141312.00      0.00      0.00       0  ./valsort outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:24     1000     47174    2.00    2.00    0.00    0.00    4.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
+21:21:24     1000     47319   45.00   10.00    0.00    0.00   55.00    43      0.00      0.00 2053232  592092   0.30 141312.00      0.00      0.00       0  ./valsort outfile 
+
+# Time        UID       PID    %usr %system  %guest   %wait    %CPU   CPU  minflt/s  majflt/s     VSZ     RSS   %MEM   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+21:21:25        0       210    0.00    1.00    0.00    0.00    1.00    33      0.00      0.00       0       0   0.00     -1.00     -1.00     -1.00       0  ksoftirqd/33
+21:21:25     1000     35834    0.00    0.00    0.00    0.00    0.00    17     55.00      0.00   14996    5012   0.00 1953124.00 2920036.00 889480.00       0  -bash 
+21:21:25     1000     47174    1.00    2.00    0.00    0.00    3.00     9      0.00      0.00   22108   16728   0.01      0.00      0.00      0.00       0  pidstat -dru -hl 1 
